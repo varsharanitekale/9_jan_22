@@ -1,0 +1,79 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+html{
+    --back-image: linear-gradient(45deg, pink, skyblue, lightgreen);
+
+}
+body{
+    width:100vw;
+    height:100vh;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+
+
+
+}
+.container{
+    display: flex;
+    gap:18vw;
+    justify-content: center;
+    align-items: flex-end;
+    margin:70px 140px;
+    width:80vw;
+    /* height:40vh; */
+    background-image:var(--back-image);
+    padding:10px;
+    box-shadow: 3px 3px 5px black;
+
+
+}
+button{
+    padding:5px;
+    border:none;
+    outline:none;
+    box-shadow: 2px 2px 6px;
+
+}
+.add_arr_btn{
+    background-color: rgb(167, 141, 141);
+    color:white;
+}
+button{
+    background-color: rgb(229, 95, 219);
+    color:white;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.main{
+    font-size: 2em;
+    font-family: 'Abril Fatface', cursive;
+    /*  */
+}
+h2{
+    box-shadow: 2px 2px 3px red;
+    color:rgb(123, 128, 223);
+    /* background-image: var(--back-image); */
+}
+.bar {
+    width: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 183, 255);
+    transition: 0.2s all ease;
+}
+  
+.bar__id {
+    position: absolute;
+    top: -24px;
+    width: 100%;
+    text-align: center;
+}
